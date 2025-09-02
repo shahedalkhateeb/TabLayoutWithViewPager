@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_texts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/no_data_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No data received"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+
+
+        <TextView
+            android:id="@+id/output_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"/>
+
+</FrameLayout>
